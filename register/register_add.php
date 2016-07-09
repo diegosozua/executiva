@@ -9,14 +9,19 @@
                     <input type="text" name="name" placeholder="Nome" />
                 </div>
                 <div class="6u$ 12u$(mobile)">
-                    <input type="text" name="email" placeholder="Email" />
+                    <input type="text" name="phone" placeholder="Celular" />
                 </div>
-                <div class="12u$">
-                    <input type="text" name="subject" placeholder="Subject" />
+                <div class="6u 12u$(mobile)">
+                    <select name="">
+                        <option value="" disabled selected="">Estado</option>
+                    </select>
                 </div>
-                <div class="12u$">
-                    <textarea name="message" placeholder="Message" rows="8"></textarea>
+                <div class="6u$ 12u$(mobile)">
+                    <select>
+                        <option value="" disabled selected="">Cidade</option>
+                    </select>
                 </div>
+                <br><br>
                 <div class="12u$">
                     <input type="submit" value="Enviar" />
                 </div>
