@@ -1,9 +1,18 @@
 <?php
-
-$dsn = 'pgsql:host=localhost;dbname=postgres';
+//Postgresql
+/*$dsn = 'pgsql:host=localhost;dbname=postgres';
 $username = 'postgres';
-$password = 'Jesus26';
+$password = 'Jesus26';*/
 
+//MySQL
+/*$dsn = 'mysql:host=localhost;dbname=test';
+$username = 'root';
+$password = '';*/
+
+//MySQL Hostinger
+$dsn = 'mysql:host=mysql.hostinger.com.br;dbname=u302211818_revon';
+$username = 'u302211818_qrev';
+$password = 'Jesus1987';
 try {
     $db = new PDO($dsn, $username, $password);
 } catch (PDOException $e) {
